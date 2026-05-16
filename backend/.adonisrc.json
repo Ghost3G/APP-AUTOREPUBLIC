@@ -1,0 +1,15 @@
+{
+  "typescript": true,
+  "providers": [
+    "@adonisjs/core/build/providers/AppProvider",
+    "@adonisjs/lucid/build/providers/LucidProvider",
+    "@adonisjs/bodyparser/build/providers/BodyParserProvider",
+    "@adonisjs/auth/build/providers/AuthProvider"
+  ],
+  "aceProviders": [],
+  "aliases": {},
+  "preloads": [],
+  "commands": [
+    "ace"
+  ]
+}

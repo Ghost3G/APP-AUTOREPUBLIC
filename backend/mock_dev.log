@@ -1,0 +1,5 @@
+
+> auto-republic-manager-backend@0.1.0 dev
+> node mock_server.js
+
+Mock API server running on http://localhost:3333

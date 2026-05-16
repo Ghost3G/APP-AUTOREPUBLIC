@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+const { spawn } = require('child_process');
+
+const cmd = process.argv[2] || 'dev';
+
+if (cmd === 'dev') {
+  const child = spawn(process.execPath, ['-r', 'ts-node/register', 'server.ts'], {
+    stdio: 'inherit',
+    env: process.env,
+  });
+
+  child.on('exit', (code) => process.exit(code));
+} else {
+  console.log(`ace shim: unknown command ${cmd}. Supported: dev`);
+}

@@ -1,0 +1,160 @@
+
+> auto-republic-manager-frontend@0.1.0 dev
+> next dev -p 3001
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 11.7s
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.4s (451 modules)
+ HEAD /_next/static/css/app/layout.css 404 in 2567ms
+ ○ Compiling / ...
+ ✓ Compiled / in 610ms (519 modules)
+ GET / 200 in 747ms
+ HEAD /_next/static/css/dc6613c0a08f1399.css 404 in 14ms
+ GET / 200 in 51ms
+ ✓ Compiled /stock in 243ms (500 modules)
+ GET /stock 200 in 370ms
+ ✓ Compiled / in 45ms (268 modules)
+ GET / 200 in 104ms
+ ✓ Compiled /dashboard in 131ms (507 modules)
+ ✓ Compiled /clients in 125ms (510 modules)
+ ✓ Compiled /showroom in 485ms (542 modules)
+ ✓ Compiled /garage in 140ms (544 modules)
+ ✓ Compiled /techniciens in 147ms (546 modules)
+ ✓ Compiled /transfers in 144ms (541 modules)
+ ✓ Compiled /facturation in 141ms (543 modules)
+ GET /stock 200 in 123ms
+ ✓ Compiled /dashboard in 154ms (275 modules)
+ GET /facturation 200 in 109ms
+ GET /facturation 200 in 26ms
+ ✓ Compiled /showroom in 162ms (292 modules)
+ ✓ Compiled /clients in 58ms (292 modules)
+ ✓ Compiled /rendezvous in 210ms (542 modules)
+ ✓ Compiled /techniciens in 84ms (292 modules)
+ ✓ Compiled /stock in 105ms (291 modules)
+ ✓ Compiled in 435ms (536 modules)
+ ✓ Compiled in 313ms (536 modules)
+ ✓ Compiled /_not-found in 129ms (525 modules)
+ GET /garage 200 in 74ms
+ ✓ Compiled in 248ms (266 modules)
+ ✓ Compiled in 346ms (539 modules)
+ ✓ Compiled in 217ms (539 modules)
+ ✓ Compiled in 193ms (539 modules)
+ ✓ Compiled in 117ms (264 modules)
+ ✓ Compiled /_not-found in 195ms (539 modules)
+ GET /garage 200 in 86ms
+ ✓ Compiled in 123ms (266 modules)
+ GET /stock 200 in 31ms
+ GET /stock 200 in 29ms
+ GET /stock 200 in 27ms
+ ✓ Compiled /dashboard in 201ms (275 modules)
+ ✓ Compiled /showroom in 145ms (294 modules)
+ ✓ Compiled in 333ms (537 modules)
+ ✓ Compiled in 108ms (264 modules)
+ ✓ Compiled /_not-found in 135ms (540 modules)
+ GET /garage 200 in 97ms
+ GET /techniciens 200 in 103ms
+ ✓ Compiled in 181ms (540 modules)
+ ✓ Compiled in 158ms (540 modules)
+ GET /techniciens 200 in 68ms
+ ✓ Compiled in 199ms (540 modules)
+ ✓ Compiled in 0ms (274 modules)
+ ✓ Compiled in 0ms (274 modules)
+ ✓ Compiled in 0ms (274 modules)
+ GET /techniciens 200 in 382ms
+ ✓ Compiled in 268ms (537 modules)
+ ✓ Compiled in 240ms (537 modules)
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 361 (line 19 column 2)
+    at JSON.parse (<anonymous>)
+    at loadManifest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/load-manifest.js:35:27)
+    at loadManifestWithRetries (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/load-components.js:40:51)
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/load-components.js:79:100)
+    at async DevServer.findPageComponentsImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  page: '/garage'
+}
+ ⨯ SyntaxError: Unexpected non-whitespace character after JSON at position 361 (line 19 column 2)
+    at JSON.parse (<anonymous>)
+    at loadManifest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/load-manifest.js:35:27)
+    at loadManifestWithRetries (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/load-components.js:40:51)
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/load-components.js:79:100)
+    at async DevServer.findPageComponentsImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/frontend/node_modules/next/dist/server/lib/start-server.js:141:13) {
+  page: '/dashboard'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1047ms (747 modules)
+ GET /garage 200 in 91ms
+ GET /dashboard 200 in 91ms
+ ✓ Compiled in 226ms (761 modules)
+ ✓ Compiled in 166ms (761 modules)
+ ✓ Compiled in 197ms (761 modules)
+ ✓ Compiled in 189ms (761 modules)
+ GET /dashboard 200 in 74ms
+ ✓ Compiled in 664ms (759 modules)
+ ✓ Compiled in 348ms (759 modules)
+ GET /dashboard 200 in 80ms
+ GET /dashboard 200 in 27ms
+ ✓ Compiled /_not-found in 582ms (764 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/5a83cb4160f1d719.webpack.hot-update.json 404 in 519ms
+ GET /dashboard 200 in 54ms
+ ✓ Compiled /showroom in 156ms (335 modules)
+ ✓ Compiled in 200ms (783 modules)
+ ✓ Compiled in 362ms (781 modules)
+ ✓ Compiled in 177ms (781 modules)
+ ✓ Compiled in 231ms (781 modules)
+ ✓ Compiled in 164ms (781 modules)
+ ✓ Compiled in 155ms (781 modules)
+ ✓ Compiled /_error in 268ms (769 modules)
+ GET /garage 200 in 76ms
+ ✓ Compiled in 248ms (781 modules)
+ ✓ Compiled in 197ms (781 modules)
+ GET /garage 404 in 8ms
+ ✓ Compiled in 195ms (781 modules)
+ GET /garage 404 in 57ms
+ ✓ Compiled in 422ms (781 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/f9b680f4996767d2.webpack.hot-update.json 404 in 385ms
+ GET /garage 200 in 107ms
+ ✓ Compiled in 176ms (781 modules)
+ ✓ Compiled in 226ms (781 modules)
+ ✓ Compiled in 223ms (781 modules)
+ ✓ Compiled /clients in 65ms (333 modules)
+ ✓ Compiled /rendezvous in 101ms (335 modules)
+ ✓ Compiled /facturation in 111ms (337 modules)
+ ✓ Compiled /importations in 162ms (772 modules)
+ ✓ Compiled /transfers in 84ms (341 modules)
+ ✓ Compiled /rapports in 168ms (776 modules)
+ ✓ Compiled /parametres in 217ms (778 modules)
+ GET /dashboard 200 in 89ms

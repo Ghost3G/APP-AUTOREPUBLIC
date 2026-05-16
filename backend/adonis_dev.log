@@ -1,0 +1,15 @@
+
+> auto-republic-manager-backend@0.1.0 dev
+> node ace dev
+
+Error: Cannot find module '/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/backend/node_modules/@adonisjs/core/build/providers/AppProvider'
+    at createEsmNotFoundErr (node:internal/modules/cjs/loader:1458:15)
+    at finalizeEsmResolution (node:internal/modules/cjs/loader:1447:9)
+    at resolveExports (node:internal/modules/cjs/loader:679:14)
+    at Module._findPath (node:internal/modules/cjs/loader:746:31)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1406:27)
+    at Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/backend/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at resolveFileName (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/backend/node_modules/resolve-from/index.js:29:39)
+    at resolveFrom (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/backend/node_modules/resolve-from/index.js:43:9)
+    at module.exports (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/backend/node_modules/resolve-from/index.js:46:47)
+    at resolveFrom (/Users/MON TRAVAIL/AUTOREPUBLIC/APP/APP WEB AUTOREPUBLIC/backend/node_modules/@adonisjs/fold/node_modules/@poppinss/utils/build/src/Helpers/resolveFrom.js:25:39)

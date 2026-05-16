@@ -1,0 +1,14 @@
+{
+  "/garage/page": "app/garage/page.js",
+  "/techniciens/page": "app/techniciens/page.js",
+  "/stock/page": "app/stock/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/showroom/page": "app/showroom/page.js",
+  "/rendezvous/page": "app/rendezvous/page.js",
+  "/clients/page": "app/clients/page.js",
+  "/facturation/page": "app/facturation/page.js",
+  "/importations/page": "app/importations/page.js",
+  "/rapports/page": "app/rapports/page.js",
+  "/transfers/page": "app/transfers/page.js",
+  "/parametres/page": "app/parametres/page.js"
+}
